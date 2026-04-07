@@ -55,7 +55,6 @@ jobs:
     needs: [maven_test]  # Enforces that maven_test runs first
 
     runs-on: ubuntu-latest
-    runs-on: ubuntu-latest
 
     permissions:
       contents: read
